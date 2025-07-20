@@ -12,7 +12,7 @@ export default function Hero() {
         
         <div className="container relative z-10 mx-auto px-4 md:px-6">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline">
-                Luthando Gubevu
+                Luthando "Lu" Gubevu
             </h1>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-foreground/80 md:text-xl">
                 Creative Strategist | Web Designer & Developer | Video Editor
