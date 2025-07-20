@@ -119,7 +119,7 @@ export const communityProjects = [
     title: 'Fundanii Coding Project',
     description: 'An initiative to bring coding education to underserved communities in South Africa.',
     link: 'https://www.facebook.com/fundanii',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/Fundanii.jpg',
     aiHint: 'children coding'
   },
   {
