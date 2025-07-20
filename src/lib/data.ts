@@ -65,6 +65,9 @@ export const webProjects = projectUrls.map(url => {
   if (title === "Stokfund") {
       imageUrl = '/Stokfund.jpg';
   }
+  if (title === "Loyalty Leap") {
+    imageUrl = '/Loyaltyleap.jpg';
+  }
 
   return {
     title: title,
