@@ -11,7 +11,7 @@ export default function Projects() {
     <section id="projects" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center font-headline mb-4">My Work</h2>
-        <p className="max-w-2xl mx-auto text-center text-foreground/70 mb-12">Here are some of the web projects I've built, showcasing my skills in design and development.</p>
+        <p className="max-w-2xl mx-auto text-center text-foreground/70 mb-12">Also showing skills in Ui UX developement, All the websites I took from inception to paper, to Figma, to coding then github management & iterations</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {webProjects.map((project) => (
