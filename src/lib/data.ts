@@ -71,6 +71,9 @@ export const webProjects = projectUrls.map(url => {
   if (title === "Tutor Hub Academy") {
     imageUrl = '/TutoHub.jpg';
   }
+  if (title === "Nightpulse") {
+    imageUrl = '/NightPulse.jpg';
+  }
 
 
   return {
