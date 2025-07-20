@@ -60,7 +60,7 @@ export const webProjects = projectUrls.map(url => {
 
   let imageUrl = `https://placehold.co/600x400.png`;
   if (title === "Fundees") {
-      imageUrl = '/fundees.png';
+      imageUrl = '/Fundees.jpg';
   }
   if (title === "Stokfund") {
       imageUrl = '/Stokfund.jpg';
