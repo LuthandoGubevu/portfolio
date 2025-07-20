@@ -83,6 +83,9 @@ export const webProjects = projectUrls.map(url => {
   if (title === "Primal Cuts Game") {
     imageUrl = '/cutsgame.jpg';
   }
+  if (title === "Audee") {
+    imageUrl = '/Audee.jpg';
+  }
 
 
   return {
