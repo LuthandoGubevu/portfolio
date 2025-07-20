@@ -112,7 +112,7 @@ const CVPage = () => {
             <section id="portfolios" className="mb-6">
                 <h2 className="text-xl font-bold font-headline border-b-2 border-accent pb-2 mb-4">Portfolios</h2>
                 <div className="space-y-2">
-                    <Link href="https://bit.ly/3IHMFZc" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent"><Github className="h-4 w-4" /> GitHub Portfolio</Link>
+                    <Link href="https://github.com/LuthandoGubevu" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent"><Github className="h-4 w-4" /> GitHub Portfolio</Link>
                     <Link href="https://linktr.ee/luthandosocial" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent"><LinkIcon className="h-4 w-4" /> Linktree</Link>
                 </div>
             </section>

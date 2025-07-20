@@ -181,7 +181,7 @@ export const experiences = [
 
 export const socialLinks = [
   { name: 'Email', icon: Mail, url: 'mailto:luthando.gubevu@gmail.com' },
-  { name: 'GitHub', icon: Github, url: 'https://bit.ly/3IHMFZc' },
+  { name: 'GitHub', icon: Github, url: 'https://github.com/LuthandoGubevu' },
   { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/luthando-gubevu/' },
   { name: 'Behance', icon: null, svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.22 8.44a2.28 2.28 0 0 0-2.3-2.33H8.44v11.78h4.48a2.28 2.28 0 0 0 2.3-2.33v-1.78a2.28 2.28 0 0 0-2.3-2.33v0a2.28 2.28 0 0 0 2.3-2.33Z"/><path d="M8.44 11.11h2.3a1.14 1.14 0 0 1 1.14 1.14v0a1.14 1.14 0 0 1-1.14 1.14h-2.3Z"/><line x1="14.07" x2="16.56" y1="5.11" y2="5.11"/></svg>`, url: 'https://www.behance.net/lutandogubevu' },
   { name: 'Linktree', icon: LinkIcon, url: 'https://linktr.ee/luthandosocial' }
