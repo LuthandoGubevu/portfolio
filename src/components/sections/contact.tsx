@@ -12,15 +12,15 @@ export default function Contact() {
           <p className="text-foreground/70 mb-8">
             Have a project in mind or just want to say hello? I'm always open to discussing new opportunities and collaborations. Feel free to connect with me through any of the platforms below.
           </p>
-          <div className="flex items-center justify-center gap-6">
+          <div className="flex items-start justify-center gap-8 flex-wrap">
               {socialLinks.map((link) => (
-                  <Link key={link.name} href={link.url} target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-accent transition-colors" aria-label={link.name}>
+                  <Link key={link.name} href={link.url} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 text-foreground hover:text-accent transition-colors" aria-label={link.name}>
                       {link.icon ? (
                           <link.icon className="h-8 w-8" />
                       ) : (
                           <span dangerouslySetInnerHTML={{ __html: link.svg! }} />
                       )}
-                      <span className="sr-only">{link.name}</span>
+                      <span className="text-xs font-medium">{link.name}</span>
                   </Link>
               ))}
           </div>
