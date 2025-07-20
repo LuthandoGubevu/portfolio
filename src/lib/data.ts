@@ -102,8 +102,7 @@ export const webProjects = projectUrls.map(url => {
     imageUrl = '/rewards.jpg';
   }
 
-
-  return {
+  const projectData = {
     title: title,
     description: `A web project showcasing skills in modern web development and UI design.`,
     tools: ['React', 'Next.js', 'Tailwind CSS'],
@@ -111,6 +110,13 @@ export const webProjects = projectUrls.map(url => {
     liveLink: url,
     aiHint: 'website interface'
   };
+
+  if (title === 'Loyalty Leap') {
+    projectData.description = 'A comprehensive project covering the full design and development lifecycle, from initial concept and UI/UX in Figma to final implementation.';
+    projectData.tools = ['Figma', 'Adobe Suite', 'React', 'Next.js', 'UI/UX Design'];
+  }
+
+  return projectData;
 });
 
 
