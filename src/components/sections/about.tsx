@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { skills } from '@/lib/data';
 import { Button } from '../ui/button';
-import { Download } from 'lucide-react';
+import { Eye } from 'lucide-react';
 import Link from 'next/link';
 
 export default function About() {
@@ -30,12 +30,12 @@ export default function About() {
             <p className="text-foreground/80 mb-8 leading-relaxed">
               I thrive on solving complex problems and creating beautiful, intuitive, and impactful digital experiences. Whether I'm crafting a pixel-perfect design, developing a robust web application, or editing a compelling video, my goal is always to deliver work that resonates and inspires.
             </p>
-            <a href="/luthando-gubevu-cv.pdf" download="Luthando-Gubevu-CV.pdf">
+            <Link href="/cv" passHref>
               <Button>
-                <Download className="mr-2 h-4 w-4" />
-                Download CV
+                <Eye className="mr-2 h-4 w-4" />
+                View CV
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="mt-16">
