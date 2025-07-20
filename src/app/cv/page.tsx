@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Github, Link as LinkIcon, Briefcase, School, Star, Settings, Award, Languages, Car, PersonStanding } from 'lucide-react';
+import { Phone, Mail, MapPin, Github, Link as LinkIcon, ArrowLeft, Languages, Car } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
@@ -8,6 +8,15 @@ const CVPage = () => {
   return (
     <div className="bg-background text-foreground min-h-screen font-body">
       <div className="container mx-auto p-4 sm:p-8 md:p-12">
+        <div className="mb-8">
+            <Link href="/" passHref>
+              <Button variant="outline">
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                Back to Home
+              </Button>
+            </Link>
+        </div>
+
         <header className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
           <h1 className="text-4xl md:text-5xl font-bold font-headline text-primary mb-4 md:mb-0">Luthando Gubevu</h1>
           <div className="text-sm text-foreground/80 space-y-1 text-left md:text-right">
