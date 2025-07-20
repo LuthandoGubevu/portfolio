@@ -95,6 +95,9 @@ export const webProjects = projectUrls.map(url => {
   if (title === "KFC Park Order") {
     imageUrl = '/kfcparkandorder.jpg';
   }
+  if (title === "Lweemee") {
+    imageUrl = '/lweemee.jpg';
+  }
 
 
   return {
