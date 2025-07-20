@@ -58,11 +58,16 @@ export const webProjects = projectUrls.map(url => {
     title = titleOverrides[name];
   }
 
+  let imageUrl = `https://placehold.co/600x400.png`;
+  if (title === "Fundees") {
+      imageUrl = '/fundees.png';
+  }
+
   return {
     title: title,
     description: `A web project showcasing skills in modern web development and UI design.`,
     tools: ['React', 'Next.js', 'Tailwind CSS'],
-    imageUrl: `https://placehold.co/600x400.png`,
+    imageUrl: imageUrl,
     liveLink: url,
     aiHint: 'website interface'
   };

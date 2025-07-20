@@ -24,7 +24,7 @@ export default function Projects() {
                         width={600}
                         height={400}
                         className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
-                        data-ai-hint={project.aiHint}
+                        data-ai-hint={project.imageUrl.startsWith('https') ? project.aiHint : undefined}
                     />
                 </div>
               </CardHeader>
