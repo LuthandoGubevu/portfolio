@@ -14,7 +14,7 @@ export default function About() {
           <div className="md:col-span-1 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl border-4 border-accent">
               <Image
-                src="https://placehold.co/400x400.png"
+                src="/Luthando.jpeg"
                 alt="Luthando Gubevu"
                 fill
                 className="object-cover"
