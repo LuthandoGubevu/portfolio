@@ -69,7 +69,7 @@ export const webProjects = projectUrls.map(url => {
     imageUrl = '/Loyaltyleap.jpg';
   }
   if (title === "Tutor Hub Academy") {
-    imageUrl = '/Tutor.jpg';
+    imageUrl = '/TutoHub.jpg';
   }
   if (title === "Nightpulse") {
     imageUrl = '/NightPulse.jpg';
@@ -125,22 +125,16 @@ export const communityProjects = [
     title: 'Fundanii Coding Project',
     description: 'An initiative to bring coding education to underserved communities in South Africa.',
     link: 'https://www.facebook.com/fundanii',
-    imageUrl: '/Fundanii.jpg',
-    aiHint: 'children coding'
   },
   {
     title: 'Fundanii Stories',
     description: 'A platform for sharing inspiring stories from the community to foster hope and connection.',
     link: 'https://fundaniistories.mystrikingly.com/',
-    imageUrl: 'https://placehold.co/600x400.png',
-    aiHint: 'storytelling community'
   },
   {
     title: 'Dispatch Live Article',
     description: 'Featured in a news article for work on educational initiatives and community impact.',
     link: 'https://www.dispatchlive.co.za/news/2017-05-26-local-bofs-aim-to-improve-learning/',
-    imageUrl: '/Bofs.jpg',
-    aiHint: 'newspaper article'
   }
 ];
 
