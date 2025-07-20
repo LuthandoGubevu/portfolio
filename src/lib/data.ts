@@ -105,7 +105,7 @@ export const webProjects = projectUrls.map(url => {
   const projectData = {
     title: title,
     description: `A web project showcasing skills in modern web development and UI design.`,
-    tools: ['React', 'Next.js', 'Tailwind CSS'],
+    tools: ['Figma', 'Adobe Suite', 'React', 'Next.js', 'Tailwind CSS'],
     imageUrl: imageUrl,
     liveLink: url,
     aiHint: 'website interface'
