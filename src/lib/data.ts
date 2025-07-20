@@ -133,7 +133,7 @@ export const communityProjects = [
     title: 'Dispatch Live Article',
     description: 'Featured in a news article for work on educational initiatives and community impact.',
     link: 'https://www.dispatchlive.co.za/news/2017-05-26-local-bofs-aim-to-improve-learning/',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/Bofs.jpg',
     aiHint: 'newspaper article'
   }
 ];
