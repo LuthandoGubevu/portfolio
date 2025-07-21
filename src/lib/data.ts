@@ -110,6 +110,9 @@ export const webProjects = projectUrls.map(url => {
   if (title === "Allied Business Solutions") {
     imageUrl = '/Allied.jpg';
   }
+  if (title === "Ndamase Properties") {
+    imageUrl = '/Ndamase.jpg';
+  }
 
   const projectData = {
     title: title,
