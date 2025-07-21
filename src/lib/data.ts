@@ -113,6 +113,9 @@ export const webProjects = projectUrls.map(url => {
   if (title === "Ndamase Properties") {
     imageUrl = '/Ndamase.jpg';
   }
+   if (title === "GetX Marketplace") {
+    imageUrl = '/get-x.jpg';
+  }
 
   const projectData = {
     title: title,
