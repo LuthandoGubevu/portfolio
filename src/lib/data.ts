@@ -29,12 +29,15 @@ const projectUrls = [
   'https://stokfund.netlify.app/',
   'https://kfcparkorder.netlify.app/',
   'https://lweemee.netlify.app/',
-  'https://myrewards.netlify.app/'
+  'https://myrewards.netlify.app/',
+  'https://www.getx.co.za/',
+  'https://ndamaseproperties.com/',
+  'https://alliedbiz.co.za/'
 ];
 
 export const webProjects = projectUrls.map(url => {
   const domain = new URL(url).hostname;
-  const name = domain.replace('www.', '').replace('.netlify.app', '').replace('.co.za', '').replace('.mystrikingly.com','');
+  const name = domain.replace('www.', '').replace('.netlify.app', '').replace('.co.za', '').replace('.mystrikingly.com','').replace('.com', '');
   let title = name.charAt(0).toUpperCase() + name.slice(1);
   
   const titleOverrides: {[key: string]: string} = {
@@ -52,6 +55,9 @@ export const webProjects = projectUrls.map(url => {
     'kfcparkorder': "KFC Park Order",
     'lweemee': "Lweemee",
     'myrewards': "MyRewards",
+    'getx': "GetX Marketplace",
+    'ndamaseproperties': "Ndamase Properties",
+    'alliedbiz': "Allied Business Solutions",
   };
   
   if (titleOverrides[name]) {
@@ -114,6 +120,22 @@ export const webProjects = projectUrls.map(url => {
   if (title === 'Loyalty Leap') {
     projectData.description = 'A comprehensive project covering the full design and development lifecycle, from initial concept and UI/UX in Figma to final implementation.';
   }
+  if (title === 'GetX Marketplace') {
+    projectData.description = 'A dynamic e-commerce platform connecting buyers and sellers with a seamless shopping experience.';
+    projectData.tools = ['Figma', 'Adobe Suite', 'WordPress', 'E-Commerce'];
+    projectData.aiHint = 'ecommerce marketplace';
+  }
+  if (title === 'Ndamase Properties') {
+    projectData.description = 'Elegant property portal showcasing listings with advanced search and virtual tour capabilities.';
+    projectData.tools = ['Figma', 'Adobe Suite', 'Webflow', 'Real Estate'];
+    projectData.aiHint = 'real estate website';
+  }
+  if (title === 'Allied Business Solutions') {
+    projectData.description = 'Comprehensive business management software streamlining operations and enhancing productivity.';
+    projectData.tools = ['Figma', 'Adobe Suite', 'Web Development', 'IT Solutions'];
+    projectData.aiHint = 'business website';
+  }
+
 
   return projectData;
 });
