@@ -60,7 +60,7 @@ export const webProjects = projectUrls.map(url => {
 
   let imageUrl = `https://placehold.co/600x400.png`;
   if (title === "Fundees") {
-      imageUrl = '/Fundanii.jpg';
+      imageUrl = '/Fundees.jpg';
   }
   if (title === "Stokfund") {
       imageUrl = '/Stokfund.jpg';
@@ -113,7 +113,6 @@ export const webProjects = projectUrls.map(url => {
 
   if (title === 'Loyalty Leap') {
     projectData.description = 'A comprehensive project covering the full design and development lifecycle, from initial concept and UI/UX in Figma to final implementation.';
-    projectData.tools = ['Figma', 'Adobe Suite', 'React', 'Next.js', 'UI/UX Design'];
   }
 
   return projectData;
