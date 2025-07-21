@@ -141,47 +141,47 @@ export const communityProjects = [
 export const experiences = [
     {
         company: 'Baobab Brands',
+        role: 'Digital Product Strategist',
+        duration: 'Feb 2025 - Present',
+        responsibilities: [
+            'Drive product strategy and execution, leveraging design expertise to create seamless user experiences.',
+            'Lead the end-to-end digital customer journey, ensuring alignment with business objectives.',
+            'Collaborate with cross-functional teams to deliver innovative digital products.'
+        ],
+        tools: ['Figma', 'React', 'Next.js', 'Jira', 'Agile Methodologies']
+    },
+    {
+        company: 'Winedrops (Remote - UK)',
         role: 'Creative Strategist',
-        duration: '2021 - Present',
+        duration: 'Aug 2024 - Jan 2025',
         responsibilities: [
-            'Led creative strategy for various client projects, from conception to execution.',
-            'Managed product lifecycles using agile methodologies.',
-            'Designed and developed user-centric web applications and marketing materials.'
+            'Drove performance-focused creative strategy across paid (Meta & Google Ads) and organic channels.',
+            'Contributed to 5x year-on-year growth through data-driven content strategies.',
+            'Utilized tools like Foreplay to analyze trends and create high-converting content.'
         ],
-        tools: ['Figma', 'React', 'Next.js', 'Jira']
+        tools: ['Meta Ads', 'Google Ads', 'Foreplay', 'Creative Strategy', 'A/B Testing']
     },
     {
-        company: 'Winedrops',
-        role: 'UI/UX Designer & Web Developer',
-        duration: '2020 - 2021',
+        company: 'Allied Business Solutions',
+        role: 'E-Commerce Specialist | Graphic Designer',
+        duration: 'Nov 2022 - Aug 2024',
         responsibilities: [
-            'Designed and developed the main e-commerce platform on WordPress.',
-            'Conducted user research to improve site usability and conversion rates.',
-            'Created marketing materials and video content for social campaigns.'
+            'Successfully built and managed the online store, from content creation to sales strategies.',
+            'Managed SEO, Google Ads, and the Takealot Seller Portal to drive traffic and sales.',
+            'Designed marketing materials and managed digital campaigns.'
         ],
-        tools: ['WordPress', 'WooCommerce', 'Adobe XD', 'Premiere Pro']
+        tools: ['Shopify', 'SEO', 'Google Ads', 'Takealot Seller Portal', 'Adobe Creative Suite']
     },
     {
-        company: 'GetX',
-        role: 'Multimedia Designer',
-        duration: '2019 - 2020',
+        company: 'Sondlo & Knopp Advertising',
+        role: 'Graphic Designer & DTP Artist',
+        duration: 'Oct 2021 - Oct 2022',
         responsibilities: [
-            'Produced high-quality video content and animations for social media marketing.',
-            'Designed graphics for digital and print campaigns, ensuring brand consistency.',
-            'Contributed to UI/UX design for new features on mobile applications.'
+            'Created classified ads, formatted documents, and designed diverse marketing materials.',
+            'Utilized InDesign for desktop publishing and prepared documents for professional printing.',
+            'Worked in a fast-paced agency environment, meeting tight deadlines.'
         ],
-        tools: ['After Effects', 'Illustrator', 'Photoshop', 'Sketch']
-    },
-    {
-        company: 'Sondlo & Knopp',
-        role: 'Junior Web Designer',
-        duration: '2018 - 2019',
-        responsibilities: [
-            'Assisted in building and maintaining client websites using HTML, CSS, and JavaScript.',
-            'Created website layouts and user interfaces based on client specifications.',
-            'Learned foundational principles of responsive web design and development.'
-        ],
-        tools: ['HTML', 'CSS', 'JavaScript', 'Photoshop']
+        tools: ['Adobe InDesign', 'Adobe Photoshop', 'Adobe Illustrator', 'DTP']
     }
 ];
 
