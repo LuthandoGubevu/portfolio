@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="flex items-center gap-2">
             <Code2 className="h-6 w-6 text-accent" />
-            <span className="text-lg font-bold">Luthando Gubevu</span>
+            <span className="text-lg font-bold">ApexDev Studios</span>
           </div>
           <div className="flex items-center gap-4">
             {socialLinks.map((link) => (
@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-6 border-t border-primary-foreground/20 pt-6 text-center text-sm text-primary-foreground/60">
-          <p>&copy; {new Date().getFullYear()} Luthando Gubevu. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ApexDev Studios. All rights reserved.</p>
         </div>
       </div>
     </footer>
