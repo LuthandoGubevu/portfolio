@@ -170,9 +170,20 @@ export const communityProjects = [
 
 export const experiences = [
     {
+        company: 'FollowupCRM (Remote - Florida, USA)',
+        role: 'UI/UX Designer',
+        duration: 'Aug 2025 - Present',
+        responsibilities: [
+            'Design and prototype intuitive, user-centered interfaces in Figma, translating product requirements into wireframes, mockups, and interactive prototypes.',
+            'Conduct user research and usability testing to validate design decisions, iterating based on feedback and usage data.',
+            'Collaborate closely with product managers and engineers to ensure accurate implementation, while maintaining and evolving a consistent design system.'
+        ],
+        tools: ['Figma', 'UI/UX Design', 'Prototyping', 'Design Systems', 'User Research']
+    },
+    {
         company: 'Baobab Brands',
         role: 'Digital Product Strategist',
-        duration: 'Feb 2025 - Present',
+        duration: 'Feb 2025 - Feb 2026',
         responsibilities: [
             'Drive product strategy and execution, leveraging design expertise to create seamless user experiences.',
             'Lead the end-to-end digital customer journey, ensuring alignment with business objectives.',
