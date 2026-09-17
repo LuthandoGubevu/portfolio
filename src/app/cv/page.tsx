@@ -53,9 +53,17 @@ const CVPage = () => {
               <h2 className="text-2xl font-bold font-headline border-b-2 border-accent pb-2 mb-4">Experience</h2>
               <div className="space-y-6">
                 <div>
+                  <h3 className="text-xl font-semibold">UI/UX Designer</h3>
+                  <p className="text-md font-medium text-foreground/80">FollowupCRM, Florida, USA (Remote)</p>
+                  <p className="text-sm text-muted-foreground">Aug 2025 - Present</p>
+                  <p className="mt-2 text-foreground/80">
+                    As a UI/UX Designer, I design and prototype intuitive, user-centered interfaces in Figma — turning requirements into wireframes, mockups, and interactive prototypes, running usability testing, and maintaining a consistent design system in close collaboration with product and engineering teams.
+                  </p>
+                </div>
+                <div>
                   <h3 className="text-xl font-semibold">Digital Product Strategist</h3>
                   <p className="text-md font-medium text-foreground/80">Baobab Brands, Beacon bay, East London (Hybrid)</p>
-                  <p className="text-sm text-muted-foreground">Feb 2025 - Present</p>
+                  <p className="text-sm text-muted-foreground">Feb 2025 - Feb 2026</p>
                   <p className="mt-2 text-foreground/80">
                     Drive product strategy and execution, leveraging my design expertise to create seamless and engaging user experiences across digital platforms. I lead the end-to-end digital customer journey, ensuring alignment with business objectives and brand identity.
                   </p>
